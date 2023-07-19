@@ -13,10 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\opecv">
+      <UniqueIdentifier>{dbb1367e-4e89-45e4-8030-a0c9e801cff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\torch">
+      <UniqueIdentifier>{e78366ae-e855-4f28-ae37-d8c2ee72904e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="2train.cpp">
+      <Filter>源文件\torch</Filter>
     </ClCompile>
+    <ClCompile Include="1tensor.cpp">
+      <Filter>源文件\torch</Filter>
+    </ClCompile>
+    <ClCompile Include="1read_show_img.cpp">
+      <Filter>源文件\opecv</Filter>
+    </ClCompile>
+    <ClCompile Include="2train_temp.cpp">
+      <Filter>源文件\torch</Filter>
+    </ClCompile>
+    <ClCompile Include="3load_model.cpp">
+      <Filter>源文件\torch</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utils_torch.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

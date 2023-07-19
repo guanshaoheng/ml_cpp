@@ -12,7 +12,7 @@ int main(int argc, char** argv)
     // torch in C++
     torch::Tensor tensor = torch::rand({ 2, 3 }).to(torch::kCUDA);
 
-    std::cout << "Please rerere" << std::endl;
+    std::cout << "还是花钱的好用啊" << std::endl;
 
     torch::Tensor tensor2 = torch::einsum("ij, ij->ij", { tensor, tensor });
 
